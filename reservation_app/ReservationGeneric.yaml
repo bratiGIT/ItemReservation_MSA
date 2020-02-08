@@ -29,12 +29,12 @@ spec:
     spec:
       containers:
       - name: reservation
-        image: docker.io/debanjande/ora-reservation-v1:06feb2020
+        image: docker.io/brati/item-reservation-v2:4
         imagePullPolicy: Always
         env:
           - name: "APP_ITEMSEARCH_HOSTNAME"
-            value: "129.213.177.51"
+            value: "129.146.19.60"
           - name: "APP_ONHAND_HOSTNAME"
-            value: "129.213.189.107"
+            value: "129.146.193.252"
         ports:
         - containerPort: 8093
