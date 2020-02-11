@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: reservation
-        image: docker.io/brati/item-reservation-v2:4
+        image: docker.io/debanjande/ora-reservation-v1:06feb2020
         imagePullPolicy: Always
         env:
           - name: "APP_ITEMSEARCH_HOSTNAME"
